@@ -1,7 +1,7 @@
 ---
 # Local Vagrant options.
-vagrant_hostname: local.drupalcamppune.dev
-vagrant_machine_name: drupalcamppune
+vagrant_hostname: drupalcampgoa.local
+vagrant_machine_name: drupalcampgoa
 vagrant_ip: 192.168.88.22
 
 # Configure the synced folder.
@@ -31,8 +31,8 @@ drupal_install_site: true
 # Settings for installing a Drupal site if 'install_site:' is 'true'.
 drupal_major_version: 8
 drupal_domain: "{{ vagrant_hostname }}"
-drupal_site_name: "DrupalCamp Pune Website"
-drupal_install_profile: standard
+drupal_site_name: "DrupalCamp Goa Website"
+drupal_install_profile: config_installer
 drupal_enable_modules: ['admin_toolbar', 'admin_toolbar_tools', 'pathauto', 'redirect']
 drupal_account_name: admin
 drupal_account_pass: admin
